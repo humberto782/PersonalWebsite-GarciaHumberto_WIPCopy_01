@@ -1,4 +1,4 @@
-@media (max-width: 500px) {/*Mobile*/
+@media (max-width: 31.25rem) {/*Mobile*/
     .navbar-header {
         width: 500px;/*Temporary size/Maybe not necessary since overflow-x fixes the issue*/
     }
