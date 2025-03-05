@@ -1,6 +1,6 @@
 @media (max-width: 31.25rem) {/*Mobile*/
     .navbar-header {
-        width: 500px;/*Temporary size/Maybe not necessary since overflow-x fixes the issue*/
+        width: 31.25rem;/*Temporary size/Maybe not necessary since overflow-x fixes the issue*/
     }
 
     .navbar-content-wrapper {
@@ -15,39 +15,39 @@
     }
 
     .my-logo-home {
-        padding: 15px 10px 15px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        margin: 8px 20px 8px 20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        padding: .9375rem .625rem .9375rem .625rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: .5rem 1.25rem .5rem 1.25rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .dropdown-toggle {
         display: block;
         align-items: start;
         justify-content: end;
-        padding: 20px 10px 20px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        margin: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        padding: 1.25rem .625rem 1.25rem .625rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: .3125rem .3125rem .3125rem .3125rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         background: none;
-        border: 1px solid blue; /*Temporary visibility of the flex display*/
+        border: .0625rem solid blue; /*Temporary visibility of the flex display*/
     }
     .dropdown-toggle:hover {
         cursor: pointer;
     }
 
     .hamburger-icon {
-        width: 50px;
-        height: 44.67px;
+        width: 3.125rem;
+        height: 2.791875rem;
     }
 
     .dropdown-menu {
         display: none;
         padding: .75rem;
-        margin: 0px -5px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 0rem .3125rem 0rem 0rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         position: absolute;
-        width: 500px;/*Temporary size/Maybe not necessary since overflow-x fixes the issue*/
+        width: 31.25rem;/*Temporary size/Maybe not necessary since overflow-x fixes the issue*/
         right: 0;
         top: calc(100% + .25rem);
         opacity: 0;
         background: #2e3c3f;
-        border: 5px solid yellow;/*Temporary visibility of the flex display*/
+        border: .3125rem solid yellow;/*Temporary visibility of the flex display*/
     }
     .dropdown-menu.open {
         display: block;
@@ -61,82 +61,82 @@
     .my-about-skills, .my-projects, .my-contact {
         align-items: center;
         text-align: center;
-        padding: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        margin: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        padding: .3125rem .3125rem .3125rem .3125rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: .3125rem .3125rem .3125rem .3125rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .my-ld-button {
         align-items: center;
         text-align: center;
-        padding: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        margin: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        font-size: 24px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        padding: .3125rem .3125rem .3125rem .3125rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: .3125rem .3125rem .3125rem .3125rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 1.5rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .home-main-wrapper {
         flex-direction: column;
         align-items: center;
-        width: 500px;/*Temporary size*/
-        margin: 5px 0px 50px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 31.25rem;/*Temporary size*/
+        margin: .3125rem 0rem 3.125rem 0rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         background-color: #3E3E3E;/*Temporary visibility of the flex display-placeholder green/actual bg-color #3E3E3E*/
     }
 
     .home-content-image {
-        margin: 5px 0px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: .3125rem 0rem 0rem 0rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .avatar-image {
-        margin: 5px 50px 5px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        width: 350px;/*Temporary size*/
-        height: 350px;/*Temporary size*/
+        margin: .3125rem 3.125rem .3125rem 3.125rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 21.875rem;/*Temporary size*/
+        height: 21.875rem;/*Temporary size*/
     }
 
     .home-title-wrapper {
         align-self: flex-start;
-        margin: 5px 0px 0px -1px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        width: 500px;/*Temporary size*/
+        margin: .3125rem 0rem 0rem -.05rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 31.25rem;/*Temporary size*/
     }
 
     h1.home-section-title {
-        margin: 5px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        height: 205px;/*Temporary size*/
-        font-size: 53px;/*Temporary size*/
+        margin: .3125rem 2.9375rem 0rem 2.9375rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        height: 12.8125rem;/*Temporary size*/
+        font-size: 3.3125rem;/*Temporary size*/
     }
 
     .rectangle-back-design {
-        margin: 0px 0px -85px -30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        width: 425px;/*Temporary size*/
-        height: 100px;/*Temporary size*/
+        margin: 0rem 0rem -5.3125rem -1.9rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 26.5625rem;/*Temporary size*/
+        height: 6.25rem;/*Temporary size*/
     }
 
     .rectangle-front-design {
-        margin: 0px 0px -100px -1px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        width: 425px;/*Temporary size*/
-        height: 100px;/*Temporary size*/
+        margin: 0rem 0rem -6.25rem -.05rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 26.5625rem;/*Temporary size*/
+        height: 6.25rem;/*Temporary size*/
     }
 
     h2.home-subsection-description {
-        margin: 15px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: .9375rem 2.9375rem 0rem 2.9375rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .home-content-description {
-        font-size: 31px;/*Temporary size*/
+        font-size: 1.9375rem;/*Temporary size*/
     }
 
     .github-icon {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 89.88px;/*Temporary size*/
-        height: 84.69px;/*Temporary size*/
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        width: 5.6175rem;/*Temporary size*/
+        height: 5.293125rem;/*Temporary size*/
     }
 
     .home-content-button {
-        margin: 15px 80px 10px 80px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 0.9375rem 5rem .625rem 5rem;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .resume-button {
-        width: 287px;/*Temporary size*/
-        height: 80px;/*Temporary size*/
-        font-size: 25px;/*Temporary size*/
+        width: 17.9375rem;/*Temporary size*/
+        height: 5rem;/*Temporary size*/
+        font-size: 1.5625rem;/*Temporary size*/
     }
 }
